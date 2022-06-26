@@ -1,0 +1,27 @@
+{
+  "name": "opendrink-api",
+  "version": "1.0.0",
+  "description": "API for opendrink-game. Used to retrieve data and moderate data lake.",
+  "main": "./server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroslev/opendrink-api.git"
+  },
+  "author": "pedroslev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedroslev/opendrink-api/issues"
+  },
+  "homepage": "https://github.com/pedroslev/opendrink-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.18"
+  }
+}
